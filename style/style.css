@@ -251,6 +251,19 @@ select {
     line-height: normal;
 }
 
+/* footer section */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 5px;
+    color: #BDBDBD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 
 
 /* =============== Responsive =============== */
@@ -299,6 +312,11 @@ select {
     .cart-img {
         width: 45%;
         border-radius: 12px;
+    }
+
+    footer {
+        margin: 0 auto;
+        margin-top: 100px;
     }
 }
 
@@ -349,5 +367,10 @@ select {
         width: 30%;
         height: 164px;
         border-radius: 12px;
+    }
+
+    footer {
+        margin: 0 auto;
+        margin-top: 100px;
     }
 }
