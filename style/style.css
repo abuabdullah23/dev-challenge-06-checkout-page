@@ -301,3 +301,53 @@ select {
         border-radius: 12px;
     }
 }
+
+
+/* Tablet Mode Responsive */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 22px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 22px 36px;
+    }
+
+    /* Checkout form */
+    .checkout-form-container {
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+
+    .checkout-form-content {
+        width: 100%;
+    }
+
+    input,
+    select {
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 16px 22px 16px 48px;
+        width: 100%;
+    }
+
+    /* cart container */
+    .cart-container {
+        width: 100%;
+        margin-top: 24px;
+        padding: 28px 24px;
+    }
+
+    .cart-content {
+        gap: 12px;
+    }
+
+    .cart-img {
+        width: 30%;
+        height: 164px;
+        border-radius: 12px;
+    }
+}
