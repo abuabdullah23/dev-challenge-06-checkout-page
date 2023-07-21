@@ -212,6 +212,12 @@ select {
     background: transparent;
     padding: 5px;
     outline: none;
+    color: var(--gray-1, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .icon-plus-minus {
