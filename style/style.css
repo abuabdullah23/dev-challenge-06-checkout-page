@@ -34,7 +34,7 @@ body {
     width: 55%;
 }
 
-.checkout-form-content h1 {
+.container h1 {
     color: #4E5150;
     font-size: 36px;
     font-style: normal;
@@ -249,4 +249,55 @@ select {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+
+
+/* =============== Responsive =============== */
+@media only screen and (max-width:425px) {
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px 18px;
+    }
+
+    /* Checkout form */
+    .checkout-form-container {
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+
+    .checkout-form-content {
+        width: 100%;
+    }
+
+    input,
+    select {
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 14px 20px 14px 42px;
+        width: 100%;
+    }
+
+    /* cart container */
+    .cart-container {
+        width: 100%;
+        margin-top: 24px;
+        padding: 22px 18px;
+    }
+
+    .cart-content {
+        gap: 12px;
+    }
+
+    .cart-img {
+        width: 45%;
+        border-radius: 12px;
+    }
 }
