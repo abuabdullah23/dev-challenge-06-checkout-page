@@ -1,0 +1,130 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    max-height: 1080px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+/* common css */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Checkout form section */
+.checkout-form-content h1 {
+    color: #4E5150;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.checkout-form-content h2 {
+    color: var(--gray-1, #333);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+form {
+    margin-bottom: 24px;
+}
+
+.label {
+    color: var(--gray-2, #4F4F4F);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.input-container2 {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.country-field,
+.postal-field {
+    width: 50%;
+}
+
+.icon {
+    position: absolute;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+input,
+select {
+    color: var(--gray-3, #828282);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    border: 1px solid var(--gray-3, #828282);
+    padding: 18px 52px;
+    width: 100%;
+}
+
+.remember-me {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 24px;
+}
+
+.remember-me .label {
+    margin: 0px;
+}
+
+.checkbox {
+    width: fit-content;
+    width: 16px;
+    height: 16px;
+}
+
+.btn-div {
+    text-align: right;
+}
+
+.btn-submit {
+    border: none;
+    color: white;
+    padding: 20px 46px;
+    border-radius: 12px;
+    background: var(--orange, #F2994A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
